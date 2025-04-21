@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css (or use a CSS framework like Tailwind CSS) */
+
+.blog-post {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .post-title {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .post-title h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post-meta {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+  
+  .date {
+    font-style: italic;
+  }
+  
+  .category-link {
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .category {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .post-content {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .post-tags {
+    display: flex;
+  }
+  
+  .tag-link {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .tag {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
